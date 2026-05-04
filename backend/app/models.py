@@ -10,6 +10,7 @@ from sqlalchemy.orm import relationship
 
 from sqlalchemy.sql import func
 
+from .database import Base
 
 # Khởi tạo lớp Base để các Model kế thừa
 
