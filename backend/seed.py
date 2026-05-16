@@ -26,13 +26,13 @@ def seed_data():
 
             user_id=uuid.uuid4(),
 
-            username_email="teo@dalat.edu.vn",
+            username_email="ty@dalat.edu.vn",
 
-            password_hash="hashed_password_here",
+            password_hash="hashed_password_there",
 
-            full_name="Lê Văn Tèo",
+            full_name="Chu Thị Tý",
 
-            role="Admin"
+            role="User"
 
         )
 

@@ -12,10 +12,6 @@ from sqlalchemy.sql import func
 
 from .database import Base
 
-# Khởi tạo lớp Base để các Model kế thừa
-
-Base = declarative_base()
-
 
 class User(Base):
 
